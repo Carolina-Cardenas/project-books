@@ -1,0 +1,21 @@
+body{
+    color: #41403d;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    background-color: #fffef9;
+    letter-spacing: .5px;
+    width: 100%;
+}
+.wrapper-about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 8%;
+}
+.about-us{
+    width: 50%;
+}
+.about-us__image img{
+    width: 80%;
+    flex: 1;
+    border-radius: 8px;
+}
