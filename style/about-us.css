@@ -12,6 +12,7 @@ body{
     letter-spacing: 1.5px;
     line-height: 1.5;
     width: 100%;
+    min-height: 100vh;
 }
 nav{
     display: flex;
@@ -78,10 +79,9 @@ a:link {
     margin-top: 5%;
 }
 .read-more__btn button{
-    padding: 2% 4%;
+    padding: 3% 5%;
     margin: 10% 0%;
     background-color: #41403d;
-    /* border: 2px solid #f8faf5; */
     border-radius: 10px;
     text-align: center;
 }
@@ -89,6 +89,7 @@ a:link {
     text-decoration: none;
     color: antiquewhite;
     letter-spacing: 5px;
+    font-size: 17px;
 }
 .read-more__btn button:hover{
     background-color: #64d810;
@@ -106,5 +107,41 @@ a:link {
     flex: 1;
     border-radius: 8px;
     margin: 0% 10%;
+    transition: transform 0.3s ease;
+}
+.about-us__image img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    width: 100%;
+    padding: 5% 6%;
+    display: flex;
+    background-color: #41403d;
+    color: #fffef9;
+}
 
+.footer-container{
+    width: 100%;
+    margin: 4% 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links{
+    margin: 7% 6%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-links li{
+    list-style: none;
+}
+.footer-links li a{
+    color: #fffef9;
+    line-height: 1.8;
+}
+.newsletter{
+    margin: 7% 6%;
+}
+.adress-footer{
+    margin: 7% 6%;
 }
