@@ -7,6 +7,7 @@
   align-items: center;
   padding: 20px 0 50px;
   flex-wrap: wrap;
+  background-color:  #fffef9;
 }
 
 .box {
@@ -20,8 +21,9 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  opacity: 0.9;
-  transition: background-color 0.3s ease;
+  opacity: 0.8;
+  transition: transform 0.3s ease-in-out;
+  /* transition: background-color 0.3s ease; */
 }
 
 img {
@@ -30,15 +32,17 @@ img {
   width: 70%;
 }
 
-image {
+.image:hover{
   margin-left: 215px;
   margin-bottom: 26px;
   margin-top: 24px;
   background-position: center;
   background-attachment: fixed;
+  transform: scale(1.1)
 }
 .image1 {
   background: url("../img/harry-potter-and-the-sorcerer.jpg");
+ 
 }
 .image2 {
   background-image: url("../img/moby-dick.jpg");
@@ -67,10 +71,14 @@ h3 {
   margin-top: 15px;
   text-align: center;
   margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  color:#41403d;
 }
 .description {
   width: 50%;
   text-align: center;
   justify-content: center; 
   margin-top: 20px; 
+  font-family: "Poppins", sans-serif;
+  color:#41403d;
 }
