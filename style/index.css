@@ -21,7 +21,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: transform 0.3s ease-in-out;
   /* transition: background-color 0.3s ease; */
 }
@@ -32,12 +32,12 @@ img {
   width: 70%;
 }
 
-.image:hover{
-  margin-left: 215px;
+.box:hover{
+  /* margin-left: 215px;
   margin-bottom: 26px;
   margin-top: 24px;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   transform: scale(1.1)
 }
 .image1 {
@@ -59,9 +59,9 @@ img {
 .image6 {
   background-image: url("../img/the-hobbit.jpg");
 }
-/* .shadow {
+ .shadow {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+} 
 
 
 h1,
@@ -70,15 +70,22 @@ h3 {
   text-align: center;
   margin-top: 15px;
   text-align: center;
-  margin-right: 10px;
+  margin-left: 20px;
   font-family: "Poppins", sans-serif;
   color:#41403d;
 }
 .description {
   width: 50%;
   text-align: center;
+  margin-left:30px ;
   justify-content: center; 
   margin-top: 20px; 
   font-family: "Poppins", sans-serif;
+  color:#383736;
+}
+.bookly{
+  font-family: "Poppins", sans-serif;
   color:#41403d;
+  margin-top:4% ;
+  margin-left:30px ;
 }
