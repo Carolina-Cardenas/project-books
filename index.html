@@ -7,80 +7,111 @@
     <link href="./style/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/index.css" />
 
-    <title>Document</title>
+    <title>Bookly</title>
 </head>
 
 <body>
-    <section>
-        <h1 class="title">Bookly</h1>
-        <h2 class="title2">Exploring Literary Worlds</h2>
-        <p class="bookly">We invite visitors to immerse themselves in a universe of fascinating stories.
-            Highlighting the diversity of genres you can discover at Bookly,
-            from thrilling thrillers to gripping science fiction stories.</p>
-    </section>
-    <section>
-        <div class="box image1 shadow">
-            <h3>Harry Potter and the Sorcerer's Stone</h3>
-            <p>Author:J.k.Rowling</p>
-            <p>Year:1997</p>
-            <div class="description">
-                <p> 'The first book in the beloved Harry Potter series, 
-                    it introduces readers to the magical world of Hogwarts and the young wizard Harry Potter.',</p>
-            </div> 
-           
-        </div>
-        <div class="box image2">
-            <h3>Moby-Dick</h3>
-            <p>Author:Herman Melville</p>
-            <p>Year:1851</p>
-            <div class="description">
-                <p>An epic tale of obsession, revenge, and the relentless pursuit of the great white whale, Moby Dick.</p>
+    <header>
+        <nav>
+            <h1><i>Bookly</i></h1>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="pages/about-us.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="grid__container">
+            <div class="grid__element text__first">
+                <h1 class="title">Bookly</h1>
+                <br>
+                <p>Embark on a literary adventure with us. At Bookly, we celebrate the magic of reading by offering a
+                    diverse collection of captivating books that promise to transport you to different worlds. Whether
+                    you're an experienced reader or just starting,
+                    our carefully selection invites you to discover new stories, emotions, and knowledge. With a focus
+                    on quality, diversity, and the general interest of our readers, it's a way of expressing that we've
+                    taken the time and consideration necessary to provide a meaningful variety of works that we hope
+                    you'll enjoy.
+                    In the gallery, you can explore our catalogs and find your next great read at Bookly, where each
+                    book opens a door to endless possibilities!</p>
+                <br>
+                <br>
+                <p>Here is a little information about us! </p>
+                <a href="pages/about-us.html">
+                    <br>
+                    <button type="submit" class="button">
+                     Know more about us
+                    </button>
+                </a>
             </div>
-           
-        </div>
-        <div class="box image3">
-            
-            <h3>Pride and Prejudice</h3>
-            <p>Author:Jane Austen</p>
-            <p>Year:1813</p>
-            <div class="description">
-                <p>A timeless romance novel that examines societal expectations and the misunderstandings that can arise from pride and prejudice.</p>
-            
-        </div>
-           
-        </div>
-        <div class="box image4">
-           
-            <h3>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</h3>
-            <p>Author:C.S. Lewis</p>
-            <p>Year: 1950</p>
-            <div class="description">
-                <p>The first book in the Chronicles of Narnia series, it follows the adventures of children who discover the magical land of Narnia.</p>
+            <div class="grid__element image__second ">
+                <div class="box">
+                    <a href="index.html">
+                        <br>
+                        <img class="image" src="./img/pride-and-prejudice.jpg"
+                            alt="img of the boock pride and prejudice">
+                    </a>
+                    <div class="description">
+                        <h3>Pride and Prejudice</h3>
+                        <p>Author:Jane Austen</p>
+                        <p>Year:1813</p>
+                        <p>A timeless romance novel that examines societal expectations and the misunderstandings
+                            that can arise from pride and prejudice.</p>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="button">
+                    Go to Gallery
+                </button>
             </div>
-        
+            <div class="grid__element button__third">
+            </div>
+            <div class="grid__element maps__fourth">
+                <iframe class="iframe-maps"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1017.3381606724491!2d18.049199365447457!3d59.338357628401724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1709896099287!5m2!1sen!2sse"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <a href="https://www.google.com/maps?q=Rådmansgatan+84" target="_blank">
+                    <button type="button" class="button">You can visit Rådmansgatan 84</button>
+                </a>
+                <br>
+            </div>
         </div>
-        <div class="box image5">
-            
-            <h3>Moby-Dick</h3>
-            <p>Author:Herman Melville</p>
-            <p>Year: 1851</p>
-            <div class="description">
-                <p>An epic tale of obsession, revenge, and the relentless pursuit of the great white whale, Moby Dick.</p>
-            </div> 
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    <h3>USEFUL LINKS</h3>
+                    <li><a href="pages/about-us.html">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>NEWSLETTER</h3>
+                <form action="">
+                    <input type="email" placeholder="Please enter your email" required>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="adress-footer">
+                <h3>Adress</h3>
+                <p>ABC Street, 1234 Zip Code <br>
+                    Gothenburg/SWEDEN
+                </p>
+                <div class="footer_social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="box image6">
-           
-            <h3>'The Hobbit'</h3>
-            <p>Author:J.R.R. Tolkien</p>
-            <p>Year:1937</p>
-            <div class="description">
-                <p>A fantasy adventure novel that follows Bilbo Baggins on a quest to help a group of dwarves reclaim their homeland from a dragon.</p>
-            </div> 
-            
-        </div>
-    </section>
-
-
+    </footer>
 </body>
 
 </html>
