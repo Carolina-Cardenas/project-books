@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #fffef9;
+}
+
+.container{
+  padding: 0 5%;
+}
+
+/* books */
+
+.featured-books {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0px;
+}
+
+.featured-books h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #41403d;
+}
+
+.featured-book-card img{
+  width: 100px;
+  height: 150px;
+}
+
+.featured-book-box {
+  width: 95%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+}
+
+.featured-book-card {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919191;
+  margin: 20px 20px;
+}
+
+
+.featured-book-card:hover {
+  box-shadow: 0 0 5px #889da1;
+}
+
+.fetured-book-tag h2 {
+  margin: 12px;
+  color: #41403d;
+}
+
+.writer {
+  color: #41403d;
+  font-weight: bold;
+}
+
+.category {
+  color: #41403d;
+  margin-top: 8px;
+  font-style: oblique;
+}
+
+.book-price {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #41403d;
+}
