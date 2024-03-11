@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
 body {
   color: #41403d;
   font-style: normal;
@@ -9,49 +10,53 @@ body {
   width: auto;
   min-height: 100vh;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #41403d;
-  width: 100%;
-  height: 4%;
-  padding: 10px 20px;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41403d;
+    width: 100%;
+    height: 4%;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
 }
-nav h1 {
-  font-family: "Protest Riot", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: antiquewhite;
-  letter-spacing: 5px;
-  font-size: 30px;
-  border-bottom: 5px solid antiquewhite;
-  border-top: 5px solid antiquewhite;
-  margin-left: 5%;
-  /* text-shadow: 2px 2px #64d810; */
+nav h1{
+    /* font-family: "Protest Riot", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+    color:antiquewhite;
+    letter-spacing: 5px;
+    font-size: 30px;
+    border-bottom: 5px solid antiquewhite;
+    border-top: 5px solid antiquewhite;
+    margin-left: 5%;
+    /* text-shadow: 2px 2px #64d810; */
 }
-.nav__links {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  width: 40%;
+nav h1 i:hover{
+    color: #64d810;
 }
-.nav__links li {
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  /* text-shadow: 1px 2px #838181; */
+.nav__links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
 }
-.nav__links li a {
-  color: rgb(248, 233, 214);
-  transition: 0.5s;
+.nav__links li{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    /* text-shadow: 1px 2px #838181; */
 }
-.nav__links li a:hover {
-  color: #64d810;
-  text-decoration: underline;
+.nav__links li a{
+    color: rgb(248, 233, 214);
+    transition: 0.5s;
+}
+.nav__links li a:hover{
+    color: #64d810;
+    text-decoration: underline;
 }
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .main {
@@ -85,7 +90,7 @@ a:link {
   transition: opacity 0.3s ease-in-out;
   font-size: 50px;
   font-weight: bolder;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   line-height: 45px;
 }
 
@@ -107,7 +112,7 @@ a:link {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .button {
-  font-family: "Poppins", sans-serif;
+ font-family: "Poppins", sans-serif; 
   background: #41403d;
   border: 2px solid #fffef9;
   border-radius: 30px;
@@ -124,10 +129,9 @@ button:hover {
 h1,
 h3
  {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 400;
   font-style: normal;
-  color: #41403d;
   letter-spacing: 5px;
   font-size: 3em;
   margin-left: 5%;
@@ -159,8 +163,7 @@ h3
 
 }
  p {
-  font-family: "Poppins", sans-serif;
-  color: #41403d;
+ font-family: "Poppins", sans-serif; 
   font-size:x-large ;
   letter-spacing: 1px;
   line-height: 40px;
