@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-   
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Contact us</title>
 </head>
 <body>
-    
+    <main>
+        <div class="contact-info">
+            <h2>BOOKLY</h2>
+            <p>Örbyvägen 10</p>
+            <p>Malmö</p>
+            <p>Tel: 042-19 38 00 </p>
+            <p>Email:info@bookly.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            <button class="button">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

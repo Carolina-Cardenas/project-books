@@ -1,0 +1,61 @@
+    .container-maininfo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+        width: 100px;
+        margin: 20px;
+    }
+    .main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .contact-info {
+        background-color: #64d810;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: #64d810;
+    }
+    .contact-form {
+        background-color: #64d810;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: #64d810;
+    }
+    .contact-info h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .contact-form h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    .label{
+        font-weight: bold;
+    }
+    .textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    .buttonclass {
+        background-color: #64d810;
+        color: whitesmoke;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-color: #64d810;
+    }
+    .hover {
+        background-color: #64d810;
+        transition: 0.8s;
+    }
