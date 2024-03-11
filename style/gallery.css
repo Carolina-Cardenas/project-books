@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: #fffef9;
 }
 
@@ -28,22 +28,21 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bolder;
   color: #41403d;
 }
 
 .featured-book-card img{
-  width: 100px;
-  height: 150px;
+  width: 90px;
+  height: 120px;
 }
 
 .featured-book-box {
-  width: 95%;
-  height: 60vh;
+  width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 0px;
 }
 
@@ -51,9 +50,10 @@ body {
   width: 200px;
   height: 300px;
   text-align: center;
-  padding: 5px;
+  padding: 25px;
   border: 1px solid #919191;
   margin: 20px 20px;
+  margin-bottom: 50px;
 }
 
 
@@ -62,24 +62,28 @@ body {
 }
 
 .fetured-book-tag h2 {
-  margin: 12px;
+  margin: 1px;
+  font-size: 16px;
+  margin-top: 7px;
   color: #41403d;
 }
 
 .writer {
   color: #41403d;
   font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .category {
   color: #41403d;
   margin-top: 8px;
   font-style: oblique;
+  font-size: 13px;
 }
 
 .book-price {
-  margin-top: 8px;
-  margin-bottom: 15px;
+  margin-top: 10px;
   font-weight: bold;
   color: #41403d;
 }
