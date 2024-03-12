@@ -12,13 +12,13 @@
         padding: 20px;
     }
     .contact-info {
-        background-color: #64d810;
+        background-color:beige;
         padding: 20px;
         border-radius: 8px;
         box-shadow: #64d810;
     }
     .contact-form {
-        background-color: #64d810;
+        background-color: beige;
         padding: 20px;
         border-radius: 8px;
         box-shadow: #64d810;
@@ -46,16 +46,24 @@
     }
     .buttonclass {
         background-color: #64d810;
-        color: whitesmoke;
+        color: #64d810;
         text-align: center;
         font-family: "poppins", sans-serif;
         font-size: 15px;
         border-radius: 5px;
-        padding: 12px 20px;
+        padding: 8px 20px;
         cursor: pointer;
-        border-color: #64d810;
+        border-color: beige;
+        border: none;
+
     }
     .hover {
         background-color: #64d810;
         transition: 0.8s;
+    }
+    .contact-info h2 {
+        color: #64d810;
+    }
+    .contact-form h2 {
+        color: #64d810;
     }
