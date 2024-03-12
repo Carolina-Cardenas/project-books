@@ -54,8 +54,7 @@
     padding: 8px 20px;
     cursor: pointer;
     border-color: beige;
-    border: none;
-
+    border: none; 
 }
 .hover {
     background-color: #64d810;
