@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fffef9;
+}
+
+.container{
+  padding: 0 5%;
+}
+
+/* books */
+
+.featured-books {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0px;
+}
+
+.featured-books h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #41403d;
+}
+
+.featured-book-card img{
+  width: 90px;
+  height: 120px;
+}
+
+.featured-book-box {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+}
+
+.featured-book-card {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding: 25px;
+  border: 1px solid #919191;
+  margin: 20px 20px;
+  margin-bottom: 50px;
+}
+
+
+.featured-book-card:hover {
+  box-shadow: 0 0 5px #889da1;
+}
+
+.fetured-book-tag h2 {
+  margin: 1px;
+  font-size: 16px;
+  margin-top: 7px;
+  color: #41403d;
+}
+
+.writer {
+  color: #41403d;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.category {
+  color: #41403d;
+  margin-top: 8px;
+  font-style: oblique;
+  font-size: 13px;
+}
+
+.book-price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #41403d;
+}
